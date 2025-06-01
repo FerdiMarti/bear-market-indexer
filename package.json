@@ -1,0 +1,25 @@
+{
+    "name": "bear-market-indexer",
+    "version": "1.0.0",
+    "description": "Indexer service for Bear Market Option Tokens",
+    "license": "ISC",
+    "author": "",
+    "type": "commonjs",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "tsc",
+        "start": "node dist/index.js",
+        "dev": "ts-node src/index.ts"
+    },
+    "devDependencies": {
+        "@types/node": "^20.17.57",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.8.3"
+    },
+    "dependencies": {
+        "dotenv": "^16.5.0",
+        "ethers": "^6.14.3",
+        "mongoose": "^8.15.1",
+        "winston": "^3.17.0"
+    }
+}
